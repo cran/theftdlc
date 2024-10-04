@@ -127,9 +127,9 @@ feature_matrix2 <- calculate_features(data = simData,
                                       seed = 123)
 
 set_classifiers <- classify(feature_matrix2,
-                                        by_set = TRUE,
-                                        n_resamples = 5,
-                                        use_null = TRUE)
+                            by_set = TRUE,
+                            n_resamples = 5,
+                            use_null = TRUE)
 
 head(set_classifiers)
 
