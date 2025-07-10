@@ -37,7 +37,7 @@ calculate_interval(
 \item{model_type}{\code{character} denoting whether to calculate intervals for main models with \code{"main"} or null models with \code{"null"} if the \code{use_null} argument when using \code{tsfeature_classifier} was \code{use_null = TRUE}. Defaults to \code{"main"}}
 }
 \value{
-\code{data.frame} containing the results
+\code{interval_calculations} object which is a data frame containing the results
 }
 \description{
 Calculate interval summaries with a measure of central tendency of classification results
@@ -47,7 +47,6 @@ Calculate interval summaries with a measure of central tendency of classificatio
 library(theft)
 
 features <- theft::calculate_features(theft::simData,
-  group_var = "process",
   feature_set = NULL,
   features = list("mean" = mean, "sd" = sd))
 
