@@ -1,8 +1,8 @@
 Package: theftdlc
 Type: Package
 Title: Analyse and Interpret Time Series Features
-Version: 0.2.0
-Date: 2025-07-10
+Version: 0.2.1
+Date: 2025-07-29
 Authors@R: c(
   person("Trent", "Henderson", email = "then6675@uni.sydney.edu.au", role = c("cre", "aut"))
   )
@@ -23,7 +23,7 @@ RoxygenNote: 7.3.2
 VignetteBuilder: knitr
 URL: https://hendersontrent.github.io/theftdlc/
 NeedsCompilation: no
-Packaged: 2025-07-10 08:02:45 UTC; trenthenderson
+Packaged: 2025-07-29 10:16:54 UTC; trenthenderson
 Author: Trent Henderson [cre, aut]
 Repository: CRAN
-Date/Publication: 2025-07-10 08:20:02 UTC
+Date/Publication: 2025-07-29 11:20:02 UTC
